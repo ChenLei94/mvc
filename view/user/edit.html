@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="index.php?c=User&a=doUpdate" method="post">
+	name:      <input type="text" name="username" value="<?php echo $info['name'] ?>"><br>
+	age:       <input type="text" name="age" value="<?php echo $info['age'] ?>"><br>
+	password:  <input type="text" name="password" value="<?php echo $info['password'] ?>"><br>
+	           <input type="hidden" name="id" value="<?php echo $info['id'] ?>"><br>
+	           <input type="submit" name="">
+</form>
+</body>
+</html>
